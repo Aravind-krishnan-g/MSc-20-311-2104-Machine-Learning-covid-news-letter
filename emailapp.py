@@ -30,7 +30,7 @@ class mail_generator:
         self.df['Date_YMD']=pd.to_datetime(self.df['Date_YMD']) # convert to pandas timestamp
         self.df=self.df.drop(columns=['UN'],axis=0) # drop unnecessary column
         # states names wiith their respective codes
-        self.codes={'India \(overall\)':'TT','Andaman and Nicobar Islands':'AN','Andhra Pradesh':'AP','Arunachal Pradesh':'AR',
+        self.codes={'India (overall)':'TT','Andaman and Nicobar Islands':'AN','Andhra Pradesh':'AP','Arunachal Pradesh':'AR',
                     'Assam' :'AS','Bihar':'BR','Chandigarh':'CH', 'Chhattisgarh':'CT',
                     'Dadra and Nagar Haveli':'DN','Daman and Diu':'DD','Delhi':'DL','Goa':'GA',
                     'Gujarat':'GJ','Haryana':'HR','Himachal Pradesh':'HP','Jammu and Kashmir':'JK',
